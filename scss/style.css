@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
+header {
+  background-color: #fffdd0;
+  text-align: center;
+  top: 0;
+  margin: 0;
+  width: 100%; }
+
+.blog-posts-container {
+  width: 80%;
+  margin: auto; }
+
+.blog-post-title {
+  text-align: center; }
+
+.blog-post-date {
+  text-align: center; }
+
+footer {
+  font-size: 24px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 25px;
+  width: 100%;
+  background: #fffdd0; }
+  footer .footer-bar-content {
+    text-align: center; }
+
+p {
+  color: red; }
+
+/*# sourceMappingURL=style.css.map */

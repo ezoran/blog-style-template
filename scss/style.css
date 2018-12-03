@@ -8,8 +8,20 @@ header {
   top: 0;
   width: 100%; }
 
-.header-content #aboutTab-button {
-  style: none; }
+#aboutTab-button {
+  background: #B22222;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+  font-size: 26px; }
+
+#coffeecup {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+#flash-bar {
+  font-size: 26px;
+  color: #B22222; }
 
 .blog-posts-container {
   width: 80%;

@@ -7,15 +7,23 @@ header{
   width: 100%;
 }
 
-.header-content
+#aboutTab-button
 {
-  #aboutTab-button
-  {
-    style: none;
-  }
+  background: #B22222;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+  font-size: $headerFontSize;
+}
 
-  #flash-bar
-  {
+#coffeecup
+{
+  padding-top:10px;
+  padding-bottom:10px;
+}
 
-  }
+#flash-bar
+{
+  font-size: $headerFontSize;
+  color: #B22222
 }

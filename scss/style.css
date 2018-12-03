@@ -3,13 +3,28 @@
 header {
   background-color: #fffdd0;
   text-align: center;
+  position: relative;
+  left: 0;
   top: 0;
-  margin: 0;
   width: 100%; }
+
+.header-content #aboutTab-button {
+  style: none; }
 
 .blog-posts-container {
   width: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
   margin: auto; }
+
+body {
+  background-color: #B22222;
+  position: relative;
+  margin: 0; }
 
 .blog-post-title {
   text-align: center; }
@@ -27,8 +42,5 @@ footer {
   background: #fffdd0; }
   footer .footer-bar-content {
     text-align: center; }
-
-p {
-  color: red; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,16 +1,17 @@
 header{
   background-color: #fffdd0;
   text-align: center;
-  top:0;
-  margin: 0;
+  position: relative;
+  left: 0;
+  top: 0;
   width: 100%;
 }
 
 .header-content
 {
-  #aboutTab
+  #aboutTab-button
   {
-
+    style: none;
   }
 
   #flash-bar

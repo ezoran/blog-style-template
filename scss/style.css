@@ -2,14 +2,16 @@
 @import url("https://fonts.googleapis.com/css?family=Crete+Round");
 header {
   background-color: #fffdd0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   position: relative;
   left: 0;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 1%; }
 
 #aboutTab-button {
-  background: #B22222;
+  background: white;
   box-shadow: 0px 0px 0px transparent;
   border: 0px solid transparent;
   text-shadow: 0px 0px 0px transparent;
@@ -17,24 +19,35 @@ header {
 
 #coffeecup {
   padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  text-align: center;
+  left: 0;
+  top: 0;
+  margin: auto; }
 
 #flash-bar {
-  font-size: 26px;
-  color: #B22222; }
+  font-size: 26px; }
+  #flash-bar li {
+    display: inline;
+    padding-left: 20px;
+    padding-righ: 10px; }
+  #flash-bar a {
+    text-decoration: none;
+    text-align: center; }
 
 .blog-posts-container {
-  width: 80%;
+  width: 70%;
   padding-left: 5%;
   padding-right: 5%;
   background-color: white;
-  position: absolute;
   left: 0;
   right: 0;
   margin: auto; }
 
 body {
-  background-color: #B22222;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
   position: relative;
   margin: 0; }
 

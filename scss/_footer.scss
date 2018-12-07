@@ -6,10 +6,12 @@ footer
   left: 0;
   height: 25px;
   width: 100%;
-  background: #fffdd0;
+  background-color: #2e0000;
 
   .footer-bar-content
   {
+    font-family: $headerFont;
     text-align: center;
+    color: white;
   }
 }

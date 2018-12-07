@@ -1,9 +1,27 @@
 .blog-post-title
 {
+  font-family: $headerFont;
+  font-size: $titleFontSize;
+  font-weight:lighter;
   text-align: center;
 }
 
 .blog-post-date
 {
+  font-family: $headerFont;
+  font-size: $headerFontSize;
+  font-weight:lighter;
   text-align: center;
+  margin-top: -15px;
+}
+
+.blog-post-body
+{
+  font-family:$bodyFont;
+  font-size: $bodyFontSize;
+}
+
+h1, h2 {
+  line-height: 1;
+
 }

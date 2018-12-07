@@ -1,39 +1,55 @@
-@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
-@import url("https://fonts.googleapis.com/css?family=Crete+Round");
+@import url("https://fonts.googleapis.com/css?family=Wire+One");
+@import url("https://fonts.googleapis.com/css?family=PT+Mono");
 header {
-  background-color: #fffdd0;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
   text-align: center;
   position: relative;
   left: 0;
   top: 0;
   width: 100%;
-  padding-bottom: 1%; }
+  padding-bottom: 1%;
+  font-family: "Wire One"; }
+
+.header-content {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #450000;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.dividers {
+  font-size: 50px;
+  font-weight: lighter; }
 
 #aboutTab-button {
+  font-family: "Wire One";
   background: white;
   box-shadow: 0px 0px 0px transparent;
-  border: 0px solid transparent;
+  border: 1px black;
+  border-radius: 12px;
   text-shadow: 0px 0px 0px transparent;
-  font-size: 26px; }
+  font-size: 26px;
+  top: 0;
+  display: block;
+  left: 0;
+  margin: auto; }
 
 #coffeecup {
-  padding-top: 10px;
+  padding-top: 50px;
   padding-bottom: 10px;
   text-align: center;
   left: 0;
   top: 0;
   margin: auto; }
 
-#flash-bar {
-  font-size: 26px; }
-  #flash-bar li {
-    display: inline;
-    padding-left: 20px;
-    padding-righ: 10px; }
-  #flash-bar a {
-    text-decoration: none;
-    text-align: center; }
+#flash-bar li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px; }
+#flash-bar a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 42px; }
 
 .blog-posts-container {
   width: 70%;
@@ -52,10 +68,24 @@ body {
   margin: 0; }
 
 .blog-post-title {
+  font-family: "Wire One";
+  font-size: 42px;
+  font-weight: lighter;
   text-align: center; }
 
 .blog-post-date {
-  text-align: center; }
+  font-family: "Wire One";
+  font-size: 26px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: -15px; }
+
+.blog-post-body {
+  font-family: "PT Mono";
+  font-size: 16px; }
+
+h1, h2 {
+  line-height: 1; }
 
 footer {
   font-size: 24px;
@@ -64,8 +94,10 @@ footer {
   left: 0;
   height: 25px;
   width: 100%;
-  background: #fffdd0; }
+  background-color: #2e0000; }
   footer .footer-bar-content {
-    text-align: center; }
+    font-family: "Wire One";
+    text-align: center;
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */

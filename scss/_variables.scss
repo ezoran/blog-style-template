@@ -1,17 +1,18 @@
 
-@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
-@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+@import url('https://fonts.googleapis.com/css?family=Wire+One');
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
 
 //note:
 //  this file contains variables associated with font types and sizes
 
 //font name variables
-$headerFont: 'Reenie Beanie';
-$bodyFont: 'Crete Round';
+$headerFont: 'Wire One';
+$bodyFont: 'PT Mono';
 
 //font size variables
-$titleFontSize: 48px;
+$titleFontSize: 42px;
 $titleFontSizeMobile: 42px;
 $headerFontSize: 26px;
+$header2FontSize: 16px;
 $bodyFontSize: 16px;
 $bodyFontSizeLarge: 20px;
